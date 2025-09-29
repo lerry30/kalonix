@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --navbar-height: 10vh;
+
+  --bg-primary: #0A0A0A;
+  --bg-secondary: #1F1F1F;
+
+  --color-primary: #EDEDED;
+
+  --accent-1: #00A8E8;
+  --accent-2: #6A1B9A;
+  --neutral: #A0A0A0;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--color-primary);
+}
