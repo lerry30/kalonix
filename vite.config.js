@@ -11,7 +11,10 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      input: './index.html'
+      input: './index.html',
+      output: {
+        manualChunks: undefined,
+      },
     }
   }
 });
