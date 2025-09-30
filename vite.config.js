@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   plugins: [react()],
-  root: __dirname,
+  root: process.cwd(),
   optimizeDeps: {
     include: ['react-helmet-async']
   },
@@ -17,12 +17,16 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
+      'src': path.resolve(__dirname, './src'),
     },
   },
   build: {
+    outDir: 'dist/client',
     manifest: true,
     rollupOptions: {
-      input: path.resolve(__dirname, 'index.html'),
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+      },
       output: {
         manualChunks: undefined,
       },

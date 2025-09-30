@@ -1,5 +1,8 @@
-node_modules
-src
 .git
-*.md
+.gitignore
 .env.local
+.env.*.local
+*.md
+README.md
+node_modules/.cache
+!src
