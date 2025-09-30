@@ -2,12 +2,18 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import express from 'express';
-import { createServer as createViteServer } from 'vite';
 import compression from 'compression';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const isProduction = process.env.NODE_ENV === 'production';
 const isVercel = process.env.VERCEL === '1';
+
+// Only import Vite in development
+let createViteServer;
+if (!isProduction) {
+  const viteModule = await import('vite');
+  createViteServer = viteModule.createServer;
+}
 
 // Suppress useLayoutEffect warning on server side
 const originalError = console.error;
