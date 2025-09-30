@@ -48,9 +48,17 @@ async function createServer() {
   }
   
   app.use(async (req, res, next) => {
-    if (req.originalUrl.startsWith('/api') || 
-        req.originalUrl.includes('.') ||
-        req.originalUrl.startsWith('/assets')) {
+    // Skip SSR for API routes and static files
+    if (req.originalUrl.startsWith('/api')) {
+      return next();
+    }
+    
+    // Handle static files in production
+    if (isProduction && (req.originalUrl.startsWith('/assets') || req.originalUrl.match(/\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot)$/))) {
+      const filePath = path.join(__dirname, 'dist/client', req.originalUrl);
+      if (fs.existsSync(filePath)) {
+        return res.sendFile(filePath);
+      }
       return next();
     }
     
