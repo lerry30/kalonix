@@ -7,8 +7,9 @@ import compression from 'compression';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const isProduction = process.env.NODE_ENV === 'production';
+const isVercel = process.env.VERCEL === '1';
 
-// Just to remove the error of using useLayoutEffect on server side
+// Suppress useLayoutEffect warning on server side
 const originalError = console.error;
 console.error = (...args) => {
   if (typeof args[0] === 'string' && args[0].includes('useLayoutEffect does nothing on the server')) {
@@ -19,61 +20,60 @@ console.error = (...args) => {
 
 async function createServer() {
   const app = express();
-
+  
   app.use(compression());
-
+  
   let vite;
   if (!isProduction) {
-    // Create Vite server in middleware mode
     vite = await createViteServer({
       server: { middlewareMode: true },
       appType: 'custom'
     });
     
-    // Use vite's connect instance as middleware
     app.use(vite.middlewares);
   } else {
-    app.use('/assets', express.static(path.resolve(__dirname, 'dist/client/assets')));
-    app.use('/', express.static(path.resolve(__dirname, 'dist/client'), { index: false }));
+    const clientPath = path.resolve(__dirname, 'dist/client');
+    
+    app.use('/assets', express.static(path.join(clientPath, 'assets'), {
+      maxAge: '1y',
+      immutable: true
+    }));
+    app.use('/', express.static(clientPath, { index: false }));
   }
-
-  // Handle all routes for SSR - use a catch-all middleware instead
+  
   app.use(async (req, res, next) => {
-    // Skip API routes or static assets
     if (req.originalUrl.startsWith('/api') || 
         req.originalUrl.includes('.') ||
         req.originalUrl.startsWith('/assets')) {
       return next();
     }
-
+    
     const url = req.originalUrl;
-
+    
     try {
       let template;
       let render;
-
+      
       if (!isProduction) {
-        // Always read fresh template in dev
         template = fs.readFileSync(
           path.resolve(__dirname, 'index.html'),
           'utf-8'
         );
         template = await vite.transformIndexHtml(url, template);
         
-        // Import the server entry
         const { render: serverRender } = await vite.ssrLoadModule('/src/entry-server.jsx');
         render = serverRender;
       } else {
-        template = fs.readFileSync(
-          path.resolve(__dirname, 'dist/client/index.html'),
-          'utf-8'
-        );
-        const { render: serverRender } = await import('./dist/server/entry-server.js');
+        const templatePath = path.resolve(__dirname, 'dist/client/index.html');
+        template = fs.readFileSync(templatePath, 'utf-8');
+        
+        const serverPath = path.resolve(__dirname, 'dist/server/entry-server.js');
+        const { render: serverRender } = await import(serverPath);
         render = serverRender;
       }
-
+      
       const { html, helmet } = await render(url);
-
+      
       const finalHtml = template
         .replace('<!--ssr-outlet-->', html)
         .replace(
@@ -84,7 +84,7 @@ async function createServer() {
             ${helmet?.link?.toString() || ''}
             ${helmet?.script?.toString() || ''}`
         );
-
+      
       res.status(200).set({ 'Content-Type': 'text/html' }).end(finalHtml);
     } catch (e) {
       console.error('SSR Error:', e);
@@ -94,15 +94,27 @@ async function createServer() {
       res.status(500).end('Internal Server Error');
     }
   });
-
+  
   return app;
 }
 
-createServer().then(app => {
-  const port = process.env.PORT || 5173;
-  app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+// Handle Vercel serverless vs regular Node server
+let app;
+
+if (isVercel) {
+  // For Vercel serverless functions
+  app = await createServer();
+} else {
+  // For regular Node.js server
+  createServer().then(appInstance => {
+    const port = process.env.PORT || 5173;
+    appInstance.listen(port, () => {
+      console.log(`Server running at http://localhost:${port}`);
+    });
+  }).catch(err => {
+    console.error('Error starting server:', err);
   });
-}).catch(err => {
-  console.error('Error starting server:', err);
-});
+}
+
+// Export for Vercel (only used when isVercel is true)
+export default app;
