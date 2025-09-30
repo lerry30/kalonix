@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" width="800" height="655" role="img" aria-label="JL wavy logo">
+  <defs>
+    <!-- vibrant modern red gradient -->
+    <linearGradient id="gRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4d4d"/>
+      <stop offset="50%" stop-color="#ff1a1a"/>
+      <stop offset="100%" stop-color="#cc0000"/>
+    </linearGradient>
+    <!-- glow effect -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- subtle shadow for depth -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#660000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <!-- rotated group, shifted to new center -->
+  <g transform="rotate(-20,110,90)">
+    <!-- combined circle and wavy path into one continuous outline with sharper corners -->
+    <path
+      d="
+        M 110,12
+        A 88,88 0 0 1 198,100
+        L 162,138
+        L 162,90
+        L 142,132
+        L 106,142
+        L 90,95
+        L 22,100
+        A 88,88 0 0 1 110,12
+      "
+      fill="none"
+      stroke="url(#gRed)"
+      stroke-width="10"
+      stroke-linecap="butt"
+      stroke-linejoin="miter"
+      filter="url(#glow) url(#shadow)"
+    />
+  </g>
+</svg>
