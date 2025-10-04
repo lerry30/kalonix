@@ -9,6 +9,7 @@ export const data = [
     description: "Balanced sound, EQ app",
     ratings: 4.5,
     ratedBy: 324,
+    affiliateLink: 'https://www.amazon.com/JBL-Vibe-Buds-Wireless-Earbuds/dp/B0CGGLPB1T?dib=eyJ2IjoiMSJ9.-VUX1C8S5mPHBQSM8lwCjZIQcotjJDqnAI_GpNLiURqtNGyz1j1JPHdPYPOmwhYZJjQixmlfgqAvWwa87QAoQB1ujAFKjZLirCOltWqbhUaCLIW1AuRZ8rgFsZMWb-uEKOsYAiPh8h2lpY4i1aV62XB4jI7Ltknk9ij7sduB507Et25bb2bNiyq1IHUIHCS8CLg0e_PV4_Ztf53Tg3-RCcnBdOHdi14rNqYYBlKPL3g.r4yKV074fml5C8zCd0dJrmbBUIpcqhR7Pj1Rzjdve5o&dib_tag=se&keywords=JBL+Vibe+Buds&qid=1759603118&refinements=p_36%3A3000-5000&rnid=386442011&sr=8-1&linkCode=ll1&tag=kalonixwirele-20&linkId=0ae96311fc6658451fba3b22c0c9fde9&language=en_US&ref_=as_li_ss_tl',
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ export const data = [
     description: "ANC, IPX5",
     ratings: 4.7,
     ratedBy: 1993,
+    affiliateLink: '',
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ export const data = [
     description: "Noise cancellation, clear calls",
     ratings: 4.6,
     ratedBy: 4991,
+    affiliateLink: '',
   },
   {
     id: 4,
@@ -39,6 +42,7 @@ export const data = [
     description: "ANC, IP55, multipoint",
     ratings: 4.6,
     ratedBy: 9823,
+    affiliateLink: '',
   },
   {
     id: 5,
@@ -49,6 +53,7 @@ export const data = [
     description: "Multipoint, gaming mode, EQ",
     ratings: 4.5,
     ratedBy: 163,
+    affiliateLink: '',
   },
   {
     id: 6,
@@ -59,6 +64,7 @@ export const data = [
     description: "Strong bass, phone stand case",
     ratings: 4.4,
     ratedBy: 482,
+    affiliateLink: '',
   },
   {
     id: 7,
@@ -69,6 +75,7 @@ export const data = [
     description: "Bass boost, ANC, IP55",
     ratings: 4.5,
     ratedBy: 16473,
+    affiliateLink: '',
   },
   {
     id: 8,
@@ -79,6 +86,7 @@ export const data = [
     description: "Bassy sound, ANC",
     ratings: 4.3,
     ratedBy: 982,
+    affiliateLink: '',
   },
   {
     id: 9,
@@ -89,6 +97,7 @@ export const data = [
     description: "ANC, LDAC, multipoint",
     ratings: 4.6,
     ratedBy: 7611,
+    affiliateLink: '',
   },
   {
     id: 10,
@@ -99,6 +108,7 @@ export const data = [
     description: "Open-ear design, IPX5, app",
     ratings: 4.4,
     ratedBy: 1127,
+    affiliateLink: '',
   },
   {
     id: 11,
@@ -109,6 +119,7 @@ export const data = [
     description: "Half-in-ear, IP54, multipoint",
     ratings: 4.3,
     ratedBy: 4428,
+    affiliateLink: '',
   },
   {
     id: 12,
@@ -119,6 +130,7 @@ export const data = [
     description: "Strong ANC, gaming mode",
     ratings: 4.5,
     ratedBy: 8472,
+    affiliateLink: '',
   },
   {
     id: 13,
@@ -129,6 +141,7 @@ export const data = [
     description: "ANC, LDAC, comfortable fit",
     ratings: 4.6,
     ratedBy: 5903,
+    affiliateLink: '',
   },
   {
     id: 14,
@@ -139,6 +152,7 @@ export const data = [
     description: "Lightweight, IPX4",
     ratings: 4.2,
     ratedBy: 2172,
+    affiliateLink: '',
   },
   {
     id: 15,
@@ -149,5 +163,6 @@ export const data = [
     description: "Bass-heavy, IPX4",
     ratings: 4.3,
     ratedBy: 9281,
+    affiliateLink: '',
   },
 ];

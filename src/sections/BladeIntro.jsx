@@ -9,7 +9,11 @@ const BladeIntro = () => {
           <p>Tired of premium prices for basic audio needs? Our curated list of 15 top wireless earbuds under $50 delivers great sound, long battery life, and features like ANC without breaking the bank. Whether for workouts, calls, or daily commutes, these budget picks from brands like JBL, Anker, and Sony offer value-packed performance. We prioritized models with 6+ hours of battery, IP ratings for sweat resistance, and app support for customization. All tested for 2025 compatibility with Android/iOS. Ready to upgrade? Browse our picks below and click to shop via affiliate links—prices fluctuate, so check deals now!</p>
         </article>
         <div>
-          <img src="https://plus.unsplash.com/premium_photo-1736803526419-10b1775c2895?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Blade intro" />
+          <img 
+            src="https://plus.unsplash.com/premium_photo-1736803526419-10b1775c2895?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+            alt="Blade intro" 
+            loading="lazy"
+          />
         </div>
       </div>
     </section>

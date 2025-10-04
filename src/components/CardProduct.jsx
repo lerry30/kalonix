@@ -9,6 +9,7 @@ const CardProduct = ({image, title, price, extra={}, description, ratings=0, rat
         alt={title}
         className="w-full object-cover"
         draggable={false}
+        loading='lazy'
       />
       <div className="p-3 pb-6 flex-1 flex flex-col">
         <article>
