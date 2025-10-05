@@ -18,7 +18,7 @@ function Home() {
         ogDescription="Discover top-rated wireless earbuds under $50 with features like noise cancellation and waterproofing. Check out our 2025 list and grab yours now!"
       />
       <motion.div
-        initial={{ y: 20, opacity: 0 }}
+        initial={{ y: 60, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6 }}
         className="w-full h-full"

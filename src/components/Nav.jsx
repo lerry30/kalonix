@@ -1,0 +1,59 @@
+import { useState } from 'react';
+import { Menu } from 'lucide-react';
+import { motion } from 'framer-motion';
+
+const tabs = [
+  {
+    id: 1,
+    title: 'Top Earbuds',
+    link: '/top-earbuds'
+  },
+  {
+    id: 1,
+    title: 'Reviews',
+    link: '/reviews'
+  },
+  {
+    id: 1,
+    title: 'Buying Guide',
+    link: '/buying-guide'
+  },
+  {
+    id: 1,
+    title: 'Deals',
+    link: '/deals'
+  },
+];
+
+
+export const HBMenu = () => {
+  const [toggle, setToggle] = useState(false);
+
+  return (
+    <div className="md:hidden flex justify-center items-center flex-col">
+      <button onClick={() => setToggle(state => !state)}>
+        <Menu size={26} />
+      </button>
+      {
+        toggle && (
+          <ul className="fixed top-[var(--navbar-height)] left-0 right-0 bottom-0 z-40 flex justify-center items-center flex-col gap-6 bg-primary w-full">
+            {
+              tabs.map((tab, index) => (
+                <motion.li 
+                  key={index}
+                  initial={{y: 60, opacity: 0}}
+                  animate={{y: 0, opacity: 1}}
+                  transition={{duration: 0.6}}
+                >
+                  <a href={tab.link} className="hover:text-blue-400 text-2xl transition">
+                    {tab.title}
+                  </a>
+                </motion.li>
+              ))
+            }
+          </ul>
+        )
+      }
+    </div>
+  );
+}

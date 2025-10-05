@@ -19,8 +19,8 @@ const CardProduct = ({
   const starBarWidth = `${rating / 5 * 100}%`;
 
   return (
-    <div className={`bg-secondary w-full min-w-[17rem] h-full max-h-[80vh] rounded-lg overflow-hidden flex flex-col ${className}`}>
-      <div className="max-h-[12.5rem] bg-white py-4">
+    <div className={`bg-secondary w-full md:min-w-[17rem] h-full max-h-[80vh] rounded-lg overflow-hidden flex flex-col ${className}`}>
+      <div className="max-h-[12.5rem] bg-white p-4">
         <img 
           src={imageUrl} 
           alt={altTag}

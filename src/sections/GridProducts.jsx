@@ -57,6 +57,7 @@ const GridProducts = () => {
             variants={itemVariants}
             whileHover="hover"
             layout
+            className="min-w-[17rem]"
           >
             <CardProduct 
               imageUrl={product.imageUrl}
