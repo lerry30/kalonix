@@ -25,6 +25,22 @@ const tabs = [
   },
 ];
 
+export const HeaderNav = () => {
+  return (
+    <ul className="hidden md:flex justify-center items-center gap-6">
+      {
+        tabs.map((tab, index) => (
+          <li key={index}>
+            <a href={tab.link} className="hover:text-blue-400 transition">
+              {tab.title}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  );
+}
+
 
 export const HBMenu = () => {
   const [toggle, setToggle] = useState(false);

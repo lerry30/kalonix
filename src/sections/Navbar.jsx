@@ -1,7 +1,7 @@
 import React from 'react';
 import { Search } from 'lucide-react';
 import { LogoSVG } from '../components/SVGs';
-import { HBMenu } from '../components/Nav';
+import { HBMenu, HeaderNav } from '../components/Nav';
 import CTAButton from '../components/CTAButton';
 
 const Navbar = () => {
@@ -16,28 +16,7 @@ const Navbar = () => {
         <span className="font-bold text-lg text-red-600">Kalonix</span>
       </a>
 
-      <ul className="hidden md:flex justify-center items-center gap-6">
-        <li>
-          <a href="/top-earbuds" className="hover:text-blue-400 transition">
-            Top Earbuds
-          </a>
-        </li>
-        <li>
-          <a href="/reviews" className="hover:text-blue-400 transition">
-            Reviews
-          </a>
-        </li>
-        <li>
-          <a href="/buying-guide" className="hover:text-blue-400 transition">
-            Buying Guide
-          </a>
-        </li>
-        <li>
-          <a href="/deals" className="hover:text-blue-400 transition">
-            Deals
-          </a>
-        </li>
-      </ul>
+      <HeaderNav />
       <ul className="flex justify-center items-center gap-6">
         <li>
           <a href="">
