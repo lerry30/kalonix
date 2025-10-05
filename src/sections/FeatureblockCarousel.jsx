@@ -88,13 +88,15 @@ const FeatureblockCarousel = () => {
               }}
             >
               <CardProduct
-                image={product.image}
-                title={product.productName}
-                price={product.price}
-                extra={product.extra}
-                description={product.description}
-                ratings={product.ratings}
-                ratedBy={product.ratedBy}
+                imageUrl={product.imageUrl}
+                productName={product.productName}
+                altTag={product.altTag} 
+                price={product.price} 
+                extra={product.extra} 
+                description={product.description} 
+                rating={product.rating} 
+                reviewCount={product.reviewCount} 
+                affiliateUrl={product.affiliateUrl}
               />
             </div>
           ))}
