@@ -20,7 +20,7 @@ const CardProduct = ({
 
   return (
     <div className={`bg-secondary w-full md:min-w-[17rem] h-full max-h-[80vh] rounded-lg overflow-hidden flex flex-col ${className}`}>
-      <div className="max-h-[12.5rem] bg-white p-4">
+      <div className="max-h-[12.5rem] h-[12.5rem] bg-white p-4 flex justify-center">
         <img 
           src={imageUrl} 
           alt={altTag}

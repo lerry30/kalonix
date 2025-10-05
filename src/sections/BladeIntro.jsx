@@ -1,6 +1,15 @@
-
+import { useState, useEffect } from 'react';
 
 const BladeIntro = () => {
+  const [bladeImage, setBladeImage] = useState();
+
+  useEffect(() => {
+    (async () => {
+      const image = await import('../assets/pexels-wireless-earbuds.webp');
+      setBladeImage(image.default);
+    })();
+  }, []);
+
   return (
     <section className="min-h-screen flex justify-center items-center">
       <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-4 pb-10">
@@ -10,8 +19,8 @@ const BladeIntro = () => {
         </article>
         <div>
           <img 
-            src="https://plus.unsplash.com/premium_photo-1736803526419-10b1775c2895?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-            alt="Blade intro" 
+            src={bladeImage} 
+            alt="Kalonix wireless earbuds from pexels.com" 
             loading="lazy"
           />
         </div>
