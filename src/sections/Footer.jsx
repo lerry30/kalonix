@@ -1,4 +1,5 @@
 import { LogoSVG } from '../components/SVGs';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -30,6 +31,15 @@ const Footer = () => {
               <li><a href="/reviews" className="hover:text-blue-400 transition">Reviews</a></li>
               <li><a href="/buying-guide" className="hover:text-blue-400 transition">Buying Guide</a></li>
               <li><a href="/deals" className="hover:text-blue-400 transition">Deals</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Important Links</h3>
+            <ul className="flex flex-col gap-y-2">
+              <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+              <li><Link to="/terms-and-conditions">Terms and Conditions</Link></li>
+              <li></li>
             </ul>
           </div>
 

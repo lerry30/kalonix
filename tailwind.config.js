@@ -14,8 +14,26 @@ export default {
       },
       colors: {
         primary: "var(--color-primary)",
-      }
+      },
+      typography: (theme) => ({
+        DEFAULT: {},
+        lg: {
+          css: {
+            h1: {
+              fontSize: "2.2rem",
+              marginBottom: "0.5rem"
+            },
+            h2: {
+              fontSize: "1.7rem",
+              marginTop: "1.8rem",
+              marginBottom: "0.8rem",
+            }
+          },
+        },
+      }),
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
