@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
 
         {/* <!-- Footer Content --> */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-20">
           {/* Logo */}
           <div>
             <a href="/" className="flex items-center gap-2">
@@ -39,7 +39,7 @@ const Footer = () => {
             <ul className="flex flex-col gap-y-2">
               <li><Link to="/privacy-policy">Privacy Policy</Link></li>
               <li><Link to="/terms-and-conditions">Terms and Conditions</Link></li>
-              <li></li>
+              <li><Link to="/affiliate-disclosure">Affiliate Disclosure</Link></li>
             </ul>
           </div>
 

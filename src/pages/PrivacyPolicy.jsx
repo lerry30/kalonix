@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
         ogTitle="Privacy Policy | Kalonix"
         ogDescription="Discover how Kalonix safeguards your personal data. Our Privacy Policy outlines our practices for collecting, using, sharing, and protecting your information to ensure transparency and compliance with global standards like GDPR and CCPA."
       />
-      <div className="prose prose-lg dark:prose-invert max-w-none mx-auto p-8">
+      <div className="prose prose-lg dark:prose-invert max-w-none mx-auto p-8 pt-14">
         <h1>Privacy Policy</h1>
         <small>Last Updated: 10/06/2025</small>
         <h2>Introduction</h2>

@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsAndConditions from './pages/TermsAndConditions';
+import AffiliateDisclosure from './pages/AffiliateDisclosure';
 
 const routes = [
   {
@@ -25,6 +26,10 @@ const routes = [
       {
         path: 'terms-and-conditions',
         element: <TermsAndConditions />
+      },
+      {
+        path: 'affiliate-disclosure',
+        element: <AffiliateDisclosure />
       }
     ]
   }

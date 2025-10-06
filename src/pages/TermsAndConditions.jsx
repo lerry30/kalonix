@@ -10,7 +10,7 @@ const TermsAndConditions = () => {
         ogTitle="Terms & Conditions | Kalonix"
         ogDescription="Review Kalonix's Terms of Service for details on using our affiliate platform, including user eligibility, content guidelines, intellectual property rights, affiliate disclosures, and dispute resolution processes. By accessing our services, you agree to these terms."
       />
-      <div className="prose prose-lg dark:prose-invert max-w-none mx-auto p-8">
+      <div className="prose prose-lg dark:prose-invert max-w-none mx-auto p-8 pt-14">
         <h1>Terms and Conditions</h1>
         <small>Last Updated: 10/06/2025</small>
         <ol>
