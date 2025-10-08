@@ -4,25 +4,25 @@ import { motion } from 'framer-motion';
 
 const tabs = [
   {
-    id: 1,
     title: 'Top Earbuds',
     link: '/top-earbuds'
   },
   {
-    id: 1,
     title: 'Reviews',
     link: '/reviews'
   },
   {
-    id: 1,
     title: 'Buying Guide',
     link: '/buying-guide'
   },
   {
-    id: 1,
     title: 'Deals',
     link: '/deals'
   },
+  {
+    title: 'About',
+    link: '/about'
+  }
 ];
 
 export const HeaderNav = () => {
