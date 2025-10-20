@@ -1,6 +1,14 @@
 import { LogoSVG } from '../components/SVGs';
 import { Link } from 'react-router-dom';
 
+const LinkToPageScrollTop = ({url, children}) => {
+  return (
+    <Link to={url} onClick={() => window.scroll(0,0)}>
+      {children}
+    </Link>
+  );
+}
+
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12 mt-20">
@@ -37,9 +45,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Important Links</h3>
             <ul className="flex flex-col gap-y-2">
-              <li><Link to="/privacy-policy">Privacy Policy</Link></li>
-              <li><Link to="/terms-and-conditions">Terms and Conditions</Link></li>
-              <li><Link to="/affiliate-disclosure">Affiliate Disclosure</Link></li>
+              <li><LinkToPageScrollTop url="/privacy-policy">Privacy Policy</LinkToPageScrollTop></li>
+              <li><LinkToPageScrollTop url="/terms-and-conditions">Terms and Conditions</LinkToPageScrollTop></li>
+              <li><LinkToPageScrollTop url="/affiliate-disclosure">Affiliate Disclosure</LinkToPageScrollTop></li>
             </ul>
           </div>
 

@@ -1,6 +1,7 @@
 // import { useState } from 'react';
 import { Star } from 'lucide-react';
 import { AmazonLogo } from '../components/SVGs';
+import { Link } from 'react-router-dom';
 
 const CardProduct = ({
     imageUrl, 

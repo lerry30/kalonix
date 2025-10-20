@@ -2,7 +2,7 @@ import { createBrowserRouter, createMemoryRouter } from 'react-router-dom';
 import App from './App';
 import Home from './pages/Home';
 import About from './pages/About';
-import PrivacyPolicy from './pages/PrivacyPolicy';
+import PrivacyContent from './pages/PrivacyContent';
 import TermsAndConditions from './pages/TermsAndConditions';
 import AffiliateDisclosure from './pages/AffiliateDisclosure';
 import TopEarbuds from './pages/TopEarbuds';
@@ -39,7 +39,7 @@ const routes = [
       },
       {
         path: 'privacy-policy',
-        element: <PrivacyPolicy />
+        element: <PrivacyContent />
       },
       {
         path: 'terms-and-conditions',
@@ -112,6 +112,10 @@ const routes = [
       {
         path: 'tozo-t10',
         element: <TOZOT10 />
+      },
+      {
+        path: "/.well-known/*",
+        element: null
       },
     ]
   }

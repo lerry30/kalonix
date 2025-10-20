@@ -1,7 +1,8 @@
 import SEOHead from '../components/SEOHead';
 import { Link } from 'react-router-dom';
 
-const PrivacyPolicy = () => {
+// PrivacyPolicy - I've renamed it to PrivacyContent because - Brave is blocking your PrivacyPolicy.jsx file because its Shields feature (Brave's built-in content blocker) sees "Privacy" or "Policy" in the filename and flags it as a potential tracking/analytics script.
+const PrivacyContent = () => {
   return (
     <>
       <SEOHead
@@ -165,4 +166,4 @@ const PrivacyPolicy = () => {
   );
 }
 
-export default PrivacyPolicy;
+export default PrivacyContent;
