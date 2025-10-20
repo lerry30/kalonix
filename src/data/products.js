@@ -11,6 +11,7 @@ export const data = [
     rating: 4.2,
     reviewCount: "154",
     affiliateUrl: "https://www.amazon.com/JBL-Vibe-Buds-Wireless-Earbuds/dp/B0CGGLPB1T?dib=eyJ2IjoiMSJ9.-VUX1C8S5mPHBQSM8lwCjZIQcotjJDqnAI_GpNLiURqtNGyz1j1JPHdPYPOmwhYZJjQixmlfgqAvWwa87QAoQB1ujAFKjZLirCOltWqbhUaCLIW1AuRZ8rgFsZMWb-uEKOsYAiPh8h2lpY4i1aV62XB4jI7Ltknk9ij7sduB507Et25bb2bNiyq1IHUIHCS8CLg0e_PV4_Ztf53Tg3-RCcnBdOHdi14rNqYYBlKPL3g.r4yKV074fml5C8zCd0dJrmbBUIpcqhR7Pj1Rzjdve5o&dib_tag=se&keywords=JBL+Vibe+Buds&qid=1759603118&refinements=p_36%3A3000-5000&rnid=386442011&sr=8-1&linkCode=ll1&tag=kalonixwirele-20&linkId=0ae96311fc6658451fba3b22c0c9fde9&language=en_US&ref_=as_li_ss_tl",
+    page: "products/jbl-vibe-buds",
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ export const data = [
     rating: 4.4,
     reviewCount: "14,182",
     affiliateUrl: "https://www.amazon.com/Soundcore-Cancelling-Powerful-Playtime-Bluetooth/dp/B0CRTR3PMF?crid=28WVQZB6KF58F&dib=eyJ2IjoiMSJ9.nODdv1pXw5t8VtSJxM8yalnC8sCKLo4slhHQDvTU7Sr538vFQi2OFGF3ff90eR_DAx_cxRWPXvRlyDczR0NuW0eMiLoydVBNNUsFjtGyscvfVFtZ9pMbLeB0HC9bH5QFIjwR_l29Yv-0M6gfgSRYRGcOVZPvDRbDHVTneHxLoh4h-4RHfuLu3znRGZMnUxY_60Mpu14gk-A_G7272MdAvAjzY4TvN1X8azwoGrD3UEA.75rsbk5ELw16WRrNgo_NC0pjQiAye5DnjJV17jvRyK0&dib_tag=se&keywords=Earfun%2BAir%2BPro%2B4&qid=1759616034&refinements=p_36%3A-5000&rnid=386442011&sprefix=earfun%2Bair%2Bpro%2B4%2Caps%2C946&sr=8-1&th=1&linkCode=ll1&tag=kalonixwirele-20&linkId=c6fa89bec4f67797baf20d49b7d1d803&language=en_US&ref_=as_li_ss_tl",
+    page: "products/soundcore-p30i-by-anker",
   },
   {
     id: 3,
@@ -37,6 +39,7 @@ export const data = [
     rating: 4.3,
     reviewCount: "77",
     affiliateUrl: "https://www.amazon.com/Sony-WF-C700N-Canceling-Bluetooth-Headphones/dp/B0CV64T5LS?crid=253LH6L0P9CEU&dib=eyJ2IjoiMSJ9.dxttq9vvu02iR4s1yucceKj_Dg6_t1fXimRckKdwBKPQMzRWSTawnRiGOnmUO8wPg2VT2dDJetfxOOuc46GBZ_8rsDxUDrw-sRGtNdor0h-r5exFtJxUk4stjvVTZsg4kiUqcw9WPl6EW7Wv3Pd3nNsqtglc-I3efUG8SY7kad6b-8fDQ9DhTekKwdZTHN8yDNzcJChaR_pgPMVq6J02DBAg7L9vZpN4AsruXx8ZIY4.Iof9WGMfQ5HHIAQ5FhkLv8aD42Cz_kaQKdi0eEnRR9A&dib_tag=se&keywords=Sony+WF-C710N&qid=1759617346&refinements=p_36%3A-5400&rnid=386442011&sprefix=sony+wf-c710n%2Caps%2C573&sr=8-5&linkCode=ll1&tag=kalonixwirele-20&linkId=d5fa2434d4a6793b32390ae6f7d6a0f5&language=en_US&ref_=as_li_ss_tl",
+    page: "products/sony-wf-c700n-noise",
   },
   {
     id: 4,
@@ -50,6 +53,7 @@ export const data = [
     rating: 4.4,
     reviewCount: "1,083",
     affiliateUrl: "https://www.amazon.com/CMF-2a-Cancelling-Bluetooth-Headphones/dp/B0F2M65H3S?crid=2WGHFBDM63A0B&dib=eyJ2IjoiMSJ9.Bhv5aWOjm-YVbTpcPZj3DqChWnh8UainPJY6fYO4w8gk8GaDStdFX-qEKWR1HHWsDDYtPKe2PqNDF7BooBw0G7Oe9jBnBrBJuv9UJkNFe62juc_dj_WbyjHuFULUDIxxpe9ZBLxsPHUCbKR-t5Po_PBn7gVDK0vUPUs6AoGwv9ZA4YsLMdMQcA7mYlrR6-4XFFMZRH2JCQHw-010aBw8EpnuTROtcM3K0l5KT5KbOl0.SXawxNy1gvZgikNK-BJrAhubOSA3JHQhdf04CgOOxGI&dib_tag=se&keywords=Realme%2BBuds%2BAir%2B7&qid=1759617950&refinements=p_36%3A-5000&rnid=386442011&sprefix=realme%2Bbuds%2Bair%2B7%2Caps%2C447&sr=8-1&th=1&linkCode=ll1&tag=kalonixwirele-20&linkId=06f638acb8b680eff07a2de9f05a3d94&language=en_US&ref_=as_li_ss_tl",
+    page: "products/cmf-buds-2a",
   },
   {
     id: 5,
@@ -63,6 +67,7 @@ export const data = [
     rating: 3.9,
     reviewCount: "38",
     affiliateUrl: "https://www.amazon.com/Sony-Bluetooth-Headphones-Multipoint-Connection-Resistance/dp/B0DJV537F5?crid=2ENCE3VUPMBPV&dib=eyJ2IjoiMSJ9.Bz5diCJN83lCkuxOx-vNaqQ22hWU1nP3G4pv3lSuBdryngfdLMgNKALrchZsmOjxKKD3pvjaQeaFtUsmlb4PG5emjn1EzI9jvWtILVlVLinZDSIOL4bEwMqqJlkfNB_Oqysf7jTLR4oZGCMyNgZLJ_4O2lr5Vezsxz4g4UGgCIU1-SPc9LAvVrAod6PuFb5A0MH3cEtopipAl4-JbmDadIgWUbZsjTmBkQ9DPr6qzQs.h0HLEozGTfzpDLcvuIm605YslTmqUA6pouR8Tw56EOs&dib_tag=se&keywords=Sony%2BWF-C510&qid=1759618534&refinements=p_36%3A-5000&rnid=386442011&sprefix=sony%2Bwf-c510%2Caps%2C452&sr=8-8&th=1&linkCode=ll1&tag=kalonixwirele-20&linkId=39542166fc03de6210f71bccc262c531&language=en_US&ref_=as_li_ss_tl",
+    page: "products/sony-wf-c510",
   },
   {
     id: 6,
@@ -76,6 +81,7 @@ export const data = [
     rating: 4.3,
     reviewCount: "514",
     affiliateUrl: "https://www.amazon.com/Baseus-Bass-BP1-Pro-Cancelling/dp/B0F94381P4?crid=1LKDHXOU4C8F5&dib=eyJ2IjoiMSJ9.bfBgpMTGSmPsYCcm6eczsvMvgEH2qGLNgj_lPTuKluLaMUjbh8DMDbic2aQ5ADI-RRDw4OuGjA6didl9U25fY-L_8FIZ8W7G52DNVhST1gw.VwMDFW9wCYKT7TYjbFUJ8QmUWpgX2H_BhgYqRTUPfew&dib_tag=se&keywords=Baseus%2BEP10%2BPro&qid=1759635940&sprefix=baseus%2Bep10%2Bpro%2Caps%2C476&sr=8-1&th=1&linkCode=ll1&tag=kalonixwirele-20&linkId=39c5511f539e1a64d83784171c7cd6b6&language=en_US&ref_=as_li_ss_tl",
+    page: "products/baseus-bass-bp1-pro",
   },
   {
     id: 7,
@@ -89,6 +95,7 @@ export const data = [
     rating: 4.1,
     reviewCount: "2,362",
     affiliateUrl: "https://www.amazon.com/QCY-MeloBuds-Pro-Cancelling-Comfortable/dp/B0D4QTNPTP?crid=1NQ4F8MCZ33GQ&dib=eyJ2IjoiMSJ9.3op3oW_7nbxBkbq7ITuERPIKIcfyHEWfbOAMyYt0z-LJtUbaqYvIIzUDHkaEwznsSmTaPafzJ5-Zy1JKq9VurM6jlvXfsRODNCXizKbAd6vkfcksg-PInZdop21buUMhHvcyzSin7IXyyIz6YoTITunoyFhmNbjmU76OYf2hwo19Mj9P-iQ_PDth3r28gOdnPyrMyu6qEXKo-njIPme1HmeVUWsr99siUW4tyTkjVN0.bi2cfuA0HcS5VDvEBrD4cOMrKxDtufj6m5FUlrEYvek&dib_tag=se&keywords=QCY%2BMeloBuds%2BPro&qid=1759637418&sprefix=qcy%2Bmelobuds%2Bpro%2Caps%2C444&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll1&tag=kalonixwirele-20&linkId=04a7c28c83963ffb4b494916965e7a09&language=en_US&ref_=as_li_ss_tl",
+    page: "products/qcy-melobuds-pro",
   },
   {
     id: 8,
@@ -102,6 +109,7 @@ export const data = [
     rating: 4.3,
     reviewCount: "4,796",
     affiliateUrl: "https://www.amazon.com/TOZO-OpenEarRing-Headphones-Lightweight-Bluetooth/dp/B0DHVH5KCB?crid=KU2F7Y0NSM68&dib=eyJ2IjoiMSJ9.PDj79b9MMEriEVcM66b0bcJaC7LqTJADVuG50jXDX9zpmm2ECPO2jYQNSP8RoBeU6wypm6BOAaDJmu2wf3x6FQ1Lj8XhEduMOlKd8GyIheGbUOEV_p-eY5-gjxgMI1t5JyYP7vA-F5UO-r7WqgzHK3EBf2Yqmb1-j92tj-UeX7IG6Zc5nGbVbfoiE86en6PaDyOG2UzLkp8_oez8ykX0Qa7OCR18T_4VXlU_qVZ4dCk.OQGyuqW1YZqjIsLi51-YQfJLwHsJ0s1LQ3jWeIVGByg&dib_tag=se&keywords=Tozo%2BOpenEarRing&qid=1759638272&sprefix=tozo%2Bopenearring%2Caps%2C521&sr=8-1&th=1&linkCode=ll1&tag=kalonixwirele-20&linkId=b3414cfeb85a780755d468de4d55fd46&language=en_US&ref_=as_li_ss_tl",
+    page: "products/tozo-openearring-open",
   },
   {
     id: 9,
@@ -115,6 +123,7 @@ export const data = [
     rating: 4.4,
     reviewCount: "77,480",
     affiliateUrl: "https://www.amazon.com/TAGRY-Bluetooth-Headphones-Earphones-Waterproof/dp/B09DT48V16?crid=3Q56TH9OEAC6D&dib=eyJ2IjoiMSJ9.ktzAX5Tvr4mbqNW2Phcw_LM6KnyL9Nu8CKGDB9VrStpca07-jVGjMFW5WKv3cwt86hIcpNQRXcEXbw3t_qoDjsKvPIcOJysOqjGuu7ZL9-2HJTENlo95qogTsjAoLDb8hVjR952Yj75Z9LYgP0RI9dk7rTa7AOci1BwwmHyuubQLAoB29JM3WFwvIKiOUw9sp1soRD4hHBwGAv3o_km2t3mDz7D5eQg8wMiPLCrQCFc.fBWZff2G1-thupSnZ7RqtaHIKslctADfI71axZpPMqQ&dib_tag=se&keywords=Oppo%2BEnco%2BBuds3&qid=1759639661&refinements=p_36%3A-5000&rnid=386442011&sprefix=oppo%2Benco%2Bbuds3%2Caps%2C507&sr=8-5&th=1&linkCode=ll1&tag=kalonixwirele-20&linkId=927d2f2b47d08af4df821a94018ef553&language=en_US&ref_=as_li_ss_tl",
+    page: "products/tagry",
   },
   {
     id: 10,
@@ -128,6 +137,7 @@ export const data = [
     rating: 3.8,
     reviewCount: "25",
     affiliateUrl: "https://www.amazon.com/1MORE-Q21-Wireless-Bluetooth-Earbuds/dp/B0F19122VY?crid=2GIAJ9CISG785&dib=eyJ2IjoiMSJ9.3toHOHxtc-vsdthRq8-HdOTcoCuPAZmhGZvRZAFLNRsLMOxl6wuNgyU4I4CIxsSxv0dCiEMpFhNMsO5194UqGN5P93RkA8Z1uutyXPcqatRBTX_22TIZQ8AR6EARg9ZNt1SyGkcyaQuy3WfvPARdeKZz5F8KkcAbjmZ6_PRfFztpqQTGjEBe4N7Kt2jHz8w_mrI5Rp4-Bykif8PtDUm2gTU0hrRs1YdrqmrGnZwd7dE.J7jc9zLPMxW8xid0_Ucz05sCT73PPdxTgoMxHfE5TWg&dib_tag=se&keywords=1More%2BQ21&qid=1759640858&sprefix=1more%2Bq21%2Caps%2C479&sr=8-1&th=1&linkCode=ll1&tag=kalonixwirele-20&linkId=c381ff792441d02f149f2cbd6cdf1225&language=en_US&ref_=as_li_ss_tl",
+    page: "products/1more-q21",
   },
   {
     id: 11,
@@ -141,6 +151,7 @@ export const data = [
     rating: 4.1,
     reviewCount: "442",
     affiliateUrl: "https://www.amazon.com/SoundPEATS-Air5-Lite-Cancelling-Headphones/dp/B0DNZ1Q57Q?crid=3D1L4MSZAOULR&dib=eyJ2IjoiMSJ9.y_HxObWAOJMSBhuuhH8ypTH_13k0hkutoOkvzJHsgufukKtOyKL8plG_4aQQnRa10SezKAPC6kKAehPLy2IkaWW9LP497_4ByHilzGglVvzciNn0G5LfzLGWgMKd7zu3y_51yBdbcozBYtggFBU1cESljqILNlrwSWPD72YRqsg7pyZwRkVP7mV4jb40cCfbC-V4FMbpAjounZsrBWRmNnoaVa2DT8b1s1nI3NMKlz0.CN-_dLyWr6HN4tFj3cvxMffdORMdkBlAikmfeRjcUNo&dib_tag=se&keywords=SoundPEATS%2BAir5%2BPro&qid=1759642019&sprefix=soundpeats%2Bair5%2Bpro%2Caps%2C466&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&th=1&linkCode=ll1&tag=kalonixwirele-20&linkId=ebe5dbd7e8637a9348bd22ed21ccd21b&language=en_US&ref_=as_li_ss_tl",
+    page: "products/soundpeats-air5-lite",
   },
   {
     id: 12,
@@ -154,6 +165,7 @@ export const data = [
     rating: 4.4,
     reviewCount: "14,067",
     affiliateUrl: "https://www.amazon.com/JLab-Bluetooth-Resistance-Connection-Signature/dp/B0CXGXT6W8?crid=1XKJ4TX6A83PZ&dib=eyJ2IjoiMSJ9.7mdvR3c3WF-C_HN1KeZirg3SPqe_9dvNcUrQo8PdRGNfCugnKfxjMAF11YdF6wqyYhpwQAJLm834zHPyiSvXkCH59mnTonDZhNpzqXLNyW7x2Z-XRVcxatDFvQFAlw3N_LKjvyQJKS6ArKnlRiUa4BDCZ0C31vKd7N7nultag1fDUSLDC3ErM6YD8yr2QjF3G0tcAs8CQJNb57etefmk_UCeszNoinFpywXdImLi1ts.xS8tgugbAyouxBi8WqxQo44mSwZWtkT9f-wgXwt-GWA&dib_tag=se&keywords=JLab%2BGo%2BAir%2BPop&qid=1759643428&sprefix=jlab%2Bgo%2Bair%2Bpop%2Caps%2C620&sr=8-1&th=1&linkCode=ll1&tag=kalonixwirele-20&linkId=85e11d6bf6fdd6a0e71fd7247c94bda6&language=en_US&ref_=as_li_ss_tl",
+    page: "products/jlab-go-air-pop",
   },
   {
     id: 13,
@@ -167,6 +179,7 @@ export const data = [
     rating: 4.0,
     reviewCount: "8,618",
     affiliateUrl: "https://www.amazon.com/Skullcandy-Dime-True-Wireless-Earbuds/dp/B09NPCLNMN?crid=2IWEY2HL1R9CZ&dib=eyJ2IjoiMSJ9.V3O_NbfvGw3Q1A8KRd-7mmeNZpo4uGK87nm3CtXBkSugmqcvbOEnED5-NMIb3902Zq_ytxw9FvCQNLnBq0zc5wTt56FJ0Fn0VofBprNWY5158aoHnPeaCsBbG-MSvySRDU8a9UYgrlrVbQo4RwCcw-TMXWnypgYzQlU82F-eg_udJ4pMNzpgINUaHYU4ZeSIpoLkD_Jo52kbMdNIqKnnbgzTweiVARK6OJyfDvmKWLc.ED2fkXzs8FznXIj8nldhCISDWqClzXMORpou2F4GN78&dib_tag=se&keywords=Skullcandy%2BDime%2B2&qid=1759643814&sprefix=skullcandy%2Bdime%2B2%2Caps%2C511&sr=8-1&th=1&linkCode=ll1&tag=kalonixwirele-20&linkId=61ed1cd955a6169cbba2b01f6706ffbe&language=en_US&ref_=as_li_ss_tl",
+    page: "products/skullcandy-dime-2",
   },
   {
     id: 14,
@@ -180,6 +193,7 @@ export const data = [
     rating: 4.4,
     reviewCount: "9,247",
     affiliateUrl: "https://www.amazon.com/Soundcore-Wireless-Bluetooth-Customized-Water-Resistant/dp/B0BTYBVR4S?crid=221SBRAVLB066&dib=eyJ2IjoiMSJ9.F2CnfxgzmNGQrYTuhenIFd22NVfOUya7Px-9oNwcDxILcSXSF_cvAmYttm11zA9ecx3F0kg1gM29b_rdmSnQP4Wgz95x-sTvL73219XWx0zc_JiqtVRe6suu5bqgyYiFEQSOEBeKR5eHAjOULrbk8moyxABfumwtaaf05IgTt9FcAtfhYD2mUDSXHwG1jnN1kl-NzUSZaJXHAFtAes16En9BR6fHsBuRN768b6pzKnw.FHhzSeRJPwJsDChybL2N0KLz3CnYW99JtsbQZRDAHqw&dib_tag=se&keywords=Anker+Soundcore+A25i&qid=1759647334&sprefix=%2Caps%2C910&sr=8-1&linkCode=ll1&tag=kalonixwirele-20&linkId=7a8399190948cb3191adc4778c6deb0a&language=en_US&ref_=as_li_ss_tl",
+    page: "products/soundcore-a20i",
   },
   {
     id: 15,
@@ -193,5 +207,6 @@ export const data = [
     rating: 4.3,
     reviewCount: "257,453",
     affiliateUrl: "https://www.amazon.com/TOZO-Bluetooth-Wireless-Headphones-Waterproof/dp/B07J2Z5DBM?crid=2P1GLL52BKSOT&dib=eyJ2IjoiMSJ9._5o6EJeePeOtcCEI_tk3egn-sGiTOoYY2uZD-BV9luRpwhF-kmlI192yIUAhEjtaHLT4f2JRQutIXj-Rup8FrmELm2kjv9x6kRFRQAJuqVRBAzDqfQrs1FMky1RdtEb_jnTKpRk6HSwlcZF6MbqkcmB10NBX5Xk59PhkjK8L4ZZbW3HkJyfQCOVPGhxHJglZnDnqEHqY2dj1LU7tfOzpLXLHAEdooc8CPC01yKhpVVw.l4kdhyMFCikVRHzp1tzs8mULwRWLTY-4UahzUyO2-5Y&dib_tag=se&keywords=TOZO%2BT6%2Bwireless%2Bearbuds&qid=1759648354&sprefix=tozo%2Bt6%2Bwireless%2Bearbuds%2Caps%2C496&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll1&tag=kalonixwirele-20&linkId=9b53c6ee1988b6b1ef1dbdc84b19ee68&language=en_US&ref_=as_li_ss_tl",
+    page: "products/tozo-t10",
   },
 ];

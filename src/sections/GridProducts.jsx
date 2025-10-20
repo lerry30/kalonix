@@ -1,8 +1,11 @@
-import { data } from '../data/products';
+import { useState, useLayoutEffect } from 'react';
+import { data as rawData } from '../data/products';
 import { motion } from 'framer-motion';
 import CardProduct from '../components/CardProduct';
 
-const GridProducts = () => {
+const GridProducts = ({propData}) => {
+  const [data, setData] = useState(rawData);
+
   // Container animation variants
   const containerVariants = {
     hidden: { 
@@ -42,6 +45,12 @@ const GridProducts = () => {
       }
     }
   };
+
+  useLayoutEffect(() => {
+    if(Array.isArray(propData) && propData.length > 0) {
+      setData(propData);
+    }
+  }, []);
 
   return (
     <motion.div 

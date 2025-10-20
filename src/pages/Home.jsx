@@ -31,7 +31,7 @@ function Home() {
         <GridProducts />
       </motion.div>
     </>
-  );
+  ); 
 }
 
 export default Home;

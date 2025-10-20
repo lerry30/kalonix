@@ -39,7 +39,9 @@ const CardProduct = ({
           <p className={`text-sm ${isTooLongDesc ? 'line-clamp-3' : ''}`}>
             {description}
           </p>
-          {isTooLongDesc && <a href="" className="text-blue-600 my-2 text-sm">Read more</a>}
+          {isTooLongDesc && (
+            <Link to="products/jbl-vibe-buds" className="text-blue-600 my-2 text-sm">Read more</Link>
+          )}
           <p className="mt-1 mb-4 flex">
             <strong>{Number(rating).toFixed(1)}</strong>
             <div className="relative w-[calc(22px*5)] ml-1">
