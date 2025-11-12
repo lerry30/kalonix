@@ -5,10 +5,7 @@ const CTAButton = ({link, className, children}) => {
   return (
     <Link 
       to={link} 
-      className={`
-        px-3 py-2 bg-accent2 text-primary rounded-lg
-         ${className}
-      `}
+      className={`px-3 py-2 bg-accent2 text-primary rounded-lg ${className}`}
     >
       {children}
     </Link>
