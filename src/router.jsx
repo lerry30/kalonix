@@ -6,6 +6,7 @@ import PrivacyContent from './pages/PrivacyContent';
 import TermsAndConditions from './pages/TermsAndConditions';
 import AffiliateDisclosure from './pages/AffiliateDisclosure';
 import TopEarbuds from './pages/TopEarbuds';
+import NotFoundPage from './pages/NotFoundPage';
 
 import JBLVibeBuds from './pages/products/JBLVibeBuds';
 import SoundcoreP30ibyAnker from './pages/products/SoundcoreP30ibyAnker';
@@ -116,6 +117,10 @@ const routes = [
       {
         path: "/.well-known/*",
         element: null
+      },
+      {
+        path: "*",
+        element: <NotFoundPage />
       },
     ]
   }
