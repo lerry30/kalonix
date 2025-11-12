@@ -23,3 +23,11 @@ body {
   background-color: var(--bg-primary);
   color: var(--color-primary);
 }
+
+.init_sec_center {
+  height: calc(100vh - var(--navbar-height));
+}
+
+.init_sec_center:first-child {
+  margin-top: calc(var(--navbar-height) * -1);
+}
