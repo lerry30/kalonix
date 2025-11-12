@@ -25,7 +25,7 @@ const Navbar = () => {
         </li>
         <li> 
           <a href="/">
-            <CTAButton link="/" className="bg-blue-700">Shop Now</CTAButton>
+            <CTAButton link="/top-earbuds" className="bg-blue-700">Shop Now</CTAButton>
           </a>
         </li>
       </ul>
